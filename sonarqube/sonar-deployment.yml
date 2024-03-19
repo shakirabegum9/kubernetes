@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sonarqube
-          image: sonarqube:latest
+          image: sonarqube:7.1
           resources:
             requests:
               cpu: 500m
